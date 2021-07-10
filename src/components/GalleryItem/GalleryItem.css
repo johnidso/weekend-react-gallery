@@ -1,14 +1,27 @@
 img {
     object-fit:contain;
     height: 250px;
-    margin:15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
 .buttons {
     clear:left;
+    margin: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border-style: none;
+    height:30px;
+    width: 55px;
+    background-color: coral;
+    color:white;
 }
 
 .galleryItemWrapper {
     border-style: solid;
     margin: 15px;
+    background-color: white;
 }

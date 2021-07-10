@@ -1,12 +1,14 @@
 .App {
   text-align: center;
+  background-color: coral;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: hsl(220, 49%, 35%);
   padding: 1em;
   color: white;
   margin-bottom: 1em;
+  font-size:large;
 }
 
 .App-title {
