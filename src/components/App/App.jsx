@@ -1,6 +1,7 @@
 import Axios from 'axios';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import GalleryList from '../GalleryList/GalleryList';
 
 function App() {
   const [galleryList, setGalleryList] = useState([]);
@@ -33,14 +34,19 @@ function App() {
       console.log('Error recording Like', err);
     })
   }
+
+// Run GET on page load
+useEffect( () => {
+    getPhotos();
+  }, []);
+
 // RETURN content to DOM 
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
-        <p>Gallery goes here</p>
-        <GalleryList />
+        <GalleryList photoLiked={photoLiked} getPhotos={getPhotos} galleryList={galleryList} />
       </div>
     );
 }
