@@ -1,3 +1,14 @@
 img {
-    size: 30%;
+    object-fit:contain;
+    height: 250px;
+    margin:15px;
+  }
+
+.buttons {
+    clear:left;
+}
+
+.galleryItemWrapper {
+    border-style: solid;
+    margin: 15px;
 }
