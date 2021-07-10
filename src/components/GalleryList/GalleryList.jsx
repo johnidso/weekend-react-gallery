@@ -1,6 +1,7 @@
 import GalleryItem from '../GalleryItem/GalleryItem';
 import './GalleryList.css';
 
+// loop through gallery items
 function GalleryList(props){
     return(
         <section className='container'>

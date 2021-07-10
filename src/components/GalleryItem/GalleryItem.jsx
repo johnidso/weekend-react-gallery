@@ -1,5 +1,6 @@
 import './GalleryItem.css';
 
+// set up gallery items, including photo, like button, and like(s) display
 function GalleryItem(props){
     return( 
     <section className="galleryItemWrapper">
