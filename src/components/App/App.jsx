@@ -33,7 +33,7 @@ function App() {
       console.log('Error recording Like', err);
     })
   }
-
+// RETURN content to DOM 
     return (
       <div className="App">
         <header className="App-header">
