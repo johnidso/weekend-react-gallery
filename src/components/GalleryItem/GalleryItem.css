@@ -25,3 +25,14 @@ button {
     margin: 15px;
     background-color: white;
 }
+
+p {
+    font-size: 20px;
+    object-fit:contain;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow-wrap:normal;
+    max-width:250px;
+  }
