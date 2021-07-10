@@ -1,5 +1,10 @@
 const galleryItems = [
-    { id: 1, path: 'images/goat_small.jpg', description: 'Photo of a goat taken at Glacier National Park.', likes: 0 }
+    { id: 1, path: 'images/bento.jpg', description: 'Me holding my cuddly cat Bento. He likes to nap and play fetch.', likes: 0 },
+    { id: 2, path: 'images/annie.jpg', description: 'Me and my lovely, fantastic, and amazingly supportive girlfriend Annie.', likes: 0 },
+    { id: 3, path: 'images/cb750', description: 'My favorite mode of transportation older than I am. 1980 Honda CB750F', likes: 0 },
+    { id: 4, path: 'images/cb7502', description: 'Night ride on East River Road', likes: 0 },
+    { id: 5, path: 'images/iceland', description: 'Visiting the glacial fjord Vatnajokull in Iceland, 2018', likes: 0 },
+    { id: 6, path: 'images/thailand', description: 'Hiking around Chiang Mai, Thailand about 2 weeks before Coronavirus got real. 2020', likes: 0 },
 ];
 
 module.exports = galleryItems;
