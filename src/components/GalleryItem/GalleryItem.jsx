@@ -9,7 +9,7 @@ function GalleryItem(props){
         <section className="galleryItemWrapper">
             <img src={props.path} onClick = { () => setCardStatus(!cardStatus)}/>
             <div className='buttons'>
-                <button onClick = { () => props.photoLiked(props.id)}>Like</button>
+                <button onClick = { () => props.photoLiked(props.id)}>♥</button>
                 <aside>Likes: {props.likes}</aside>
             </div>
         </section>
@@ -17,7 +17,7 @@ function GalleryItem(props){
         <section className="galleryItemWrapper">
             <p onClick = { () => setCardStatus(!cardStatus)}>{props.description}</p>
             <div className='buttons'>
-                <button onClick = { () => props.photoLiked(props.id)}>Like</button>
+                <button onClick = { () => props.photoLiked(props.id)}>♥</button>
                 <aside>Likes: {props.likes}</aside>
             </div>
         </section>

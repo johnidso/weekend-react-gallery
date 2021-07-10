@@ -18,6 +18,7 @@ button {
     width: 55px;
     background-color: coral;
     color:white;
+    font-size: 20px;
 }
 
 .galleryItemWrapper {
