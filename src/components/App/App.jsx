@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import GalleryList from '../GalleryList/GalleryList';
@@ -8,7 +8,7 @@ function App() {
   
   // GET photos from server
   const getPhotos = () => {
-    Axios({
+    axios({
       method: 'GET',
       url:'/gallery'
     })
@@ -23,6 +23,7 @@ function App() {
 
   // PUT photo likes
   const photoLiked = (photoId) => {
+    console.log('in put');
     axios({
       method:'PUT',
       url: `/gallery/like/${photoId}`

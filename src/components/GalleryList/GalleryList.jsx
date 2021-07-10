@@ -6,7 +6,7 @@ function GalleryList(props){
     return(
         <section className='container'>
             {props.galleryList.map(photo => 
-                <GalleryItem photoLiked={props.photoLiked} getPhotos={props.getPhotos} key={photo.id} path={photo.path} description={photo.description} />
+                <GalleryItem key={photo.id} photoLiked={props.photoLiked} getPhotos={props.getPhotos} id={photo.id} path={photo.path} description={photo.description} likes={photo.likes} />
                 )}
         </section>
     )

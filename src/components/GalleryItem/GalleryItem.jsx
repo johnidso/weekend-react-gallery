@@ -6,8 +6,8 @@ function GalleryItem(props){
     <section className="galleryItemWrapper">
         <img src={props.path}/>
         <div className='buttons'>
-            <button onClick = { () => props.photoLiked(props.key)}>Like</button>
-            <aside>likes</aside>
+            <button onClick = { () => props.photoLiked(props.id)}>Like</button>
+            <aside>Likes: {props.likes}</aside>
         </div>
     </section>
     )
